@@ -1,0 +1,106 @@
+body {
+  margin: 2vw 8vw;
+  /* justify-content: center; */
+  font-family: 'FilsonProBook';
+  font-style: 'Normal';
+  font-stretch: 'Normal';
+}
+
+.logo {
+  margin: auto auto;
+  width: 250px;
+}
+.head{
+  margin-bottom: 30px;
+}
+header {
+  text-align: center;
+  margin: 0 25%;
+}
+
+ /* Start of code sourced from Clever Techie : https://www.youtube.com/watch?v=TSRtBISvsh4  */
+
+
+.gallery {
+  margin: 20px 0px;
+}
+
+/* img{
+  max-width:
+} */
+
+.gallery img {
+  transition: 1s;
+  padding: 10px;
+  width: 200px;
+  opacity: 1;
+  /* display: block; */
+  /* width: 100%; */
+  /* height: auto; */
+  /* transition: .5s ease; */
+}
+
+.gallery img:hover {
+  /* filter: grayscale(100%); */
+  transform: scale(1.1);
+}
+
+ /* End of code sourced from Clever Techie : https://www.youtube.com/watch?v=TSRtBISvsh4  */
+
+ .work img:hover{
+  /* filter: grayscale(100%); */
+  background-color: rgb(77, 148, 214);
+}
+
+.school img:hover{
+  /* filter: grayscale(100%); */
+  background-color: rgb(231, 62, 62);
+}
+
+.both img:hover{
+  /* filter: grayscale(100%); */
+  background-color: rgb(236, 204, 61);
+}
+
+.worksquare{
+  font-family: 'FilsonProBold';
+  display: inline;
+  color: white;
+  margin: auto auto;
+  padding: 10px;
+width:100px;
+  /* height: 20px; */
+  background-color: rgb(77, 148, 214);
+}
+
+.schoolsquare{
+  font-family: 'FilsonProBold';
+  display: inline;
+  color: white;
+  margin: auto auto;
+  padding: 10px;
+  width:100px;
+  height: 20px;
+  background-color: rgb(231, 62, 62);
+}
+.bothsquare{
+  font-family: 'FilsonProBold';
+  display: inline;
+  color: white;
+  margin: auto auto;
+  padding: 10px;
+  width:100px;
+  height: 20px;
+  background-color: rgb(236, 204, 61);
+}
+
+ footer {
+text-align: center;  
+ font-size: .8em;
+ margin: 0 300px;
+ }
+
+ .watermark {
+   width: 40px;
+   opacity: 1;
+ }
